@@ -2,7 +2,7 @@ import { VercelRequest, VercelResponse } from "@vercel/node"
 import OpenAI from "openai"
 
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_APIKEY,
+  // apiKey: process.env.OPENAI_APIKEY, // OPENAI_APIKEY 삭제했음. 다시 하고 싶으면 APIKey를 도입하세요
 })
 
 async function sendMessages(messages: OpenAI.ChatCompletionMessageParam[]) {
