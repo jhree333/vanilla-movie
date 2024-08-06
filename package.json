@@ -18,6 +18,7 @@
     "vercel": "^35.2.3"
   },
   "dependencies": {
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "openai": "^4.54.0"
   }
 }
